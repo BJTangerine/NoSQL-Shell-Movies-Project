@@ -49,5 +49,5 @@ echo "COPY entertainment.movies(id,title,year,rating,director) FROM 'partial_dat
 
 ```
 
-Non-partitioned Replicated movies IBM Cloudant database:
+Non-Partitioned Replicated movies IBM Cloudant database:
 ![non-partitioned replicated movies cloudant database](https://user-images.githubusercontent.com/88465305/172264085-a675c3c9-4a91-4831-8887-1f6a98d00fe8.PNG)
