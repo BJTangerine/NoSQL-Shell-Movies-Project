@@ -1,3 +1,4 @@
+#!/bin/bash
 # setup:
 # installs couchimport and mongoimport/mongoexport.
 npm install -g couchimport 
