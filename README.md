@@ -1,6 +1,8 @@
 # Simple NoSQL Movies Project
 Migrate data between NoSQL databases Cloudant, MongoDB, and Cassandra using shell.
 
+Technologies: Bash shell scripting (couchimport, mongoimport/export), IBM Cloudant, Cassandra, MongoDB.
+
 All bash commands have been consolidated into one .sh file for viewing convenience.
 
 ```
