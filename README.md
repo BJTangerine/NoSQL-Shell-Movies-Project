@@ -5,6 +5,9 @@ Technologies: Bash shell scripting (couchimport, mongoimport/export), IBM Clouda
 
 All bash commands have been consolidated into one .sh file for viewing convenience.
 
+Non-Partitioned Replicated movies IBM Cloudant database:
+![non-partitioned replicated movies cloudant database](https://user-images.githubusercontent.com/88465305/172264085-a675c3c9-4a91-4831-8887-1f6a98d00fe8.PNG)
+
 ```
 # setup:
 # installs couchimport and mongoimport/mongoexport.
@@ -50,6 +53,3 @@ echo "CREATE TABLE IF NOT EXISTS entertainment.movies(id INT PRIMARY KEY, title 
 echo "COPY entertainment.movies(id,title,year,rating,director) FROM 'partial_data.csv' WITH DELIMITER=',' AND HEADER=TRUE;" | cqlsh --username cassandra --password made_up_password
 
 ```
-
-Non-Partitioned Replicated movies IBM Cloudant database:
-![non-partitioned replicated movies cloudant database](https://user-images.githubusercontent.com/88465305/172264085-a675c3c9-4a91-4831-8887-1f6a98d00fe8.PNG)
