@@ -9,6 +9,7 @@ Non-Partitioned Replicated movies IBM Cloudant database:
 ![non-partitioned replicated movies cloudant database](https://user-images.githubusercontent.com/88465305/172264085-a675c3c9-4a91-4831-8887-1f6a98d00fe8.PNG)
 
 ```
+#!/bin/bash
 # setup:
 # installs couchimport and mongoimport/mongoexport.
 npm install -g couchimport 
