@@ -18,7 +18,7 @@ tar -xf mongodb-database-tools-ubuntu1804-x86_64-100.3.1.tgz
 export PATH=$PATH:/home/project/mongodb-database-tools-ubuntu1804-x86_64-100.3.1/bin 
 
 # sets CLOUDANTURL environment variable:
-export CLOUDANTURL="https://apikey-v2-1nfbyd28zn5gfsbisjzqph9mmrhmim9a6dudcmzy3vsl:150cc8f8eec9d5bd82830693898f0bd9@ed863672-5935-492e-9b8e-459660cad915-bluemix.cloudantnosqldb.appdomain.cloud"
+export CLOUDANTURL="cloudant_url_here"
 
 
 # IBM Cloudant:
